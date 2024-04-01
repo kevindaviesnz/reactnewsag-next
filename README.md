@@ -22,6 +22,8 @@ http://localhost:3000
 
 ```
 
+Main page:
+app/page.tsx
 
 Tutorial:
 https://nextjs.org/learn/dashboard-app/getting-started
@@ -47,7 +49,7 @@ Typescript definitions:
 ### Data fetching
 https://auth0.com/blog/using-nextjs-server-actions-to-call-external-apis/
 /app/actions.ts
-/services/actions/comment.tsx
+
 https://nextjs.org/docs/pages/building-your-application/data-fetching
 /pages/blog.tsx
 ```

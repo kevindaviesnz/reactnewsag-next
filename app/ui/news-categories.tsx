@@ -11,7 +11,7 @@ const NewsCategories: FC<NewsCategoriesProps> = ({ categories }) => {
         <ul className="inline-flex space-x-4">
           {categories.map(category => (
             <li key={category} className="text-lg font-semibold text-gray-800">
-              <a href="#" className="hover:text-gray-600">{category}</a>
+              {category}
             </li>
           ))}
         </ul>

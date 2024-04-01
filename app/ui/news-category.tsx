@@ -7,7 +7,7 @@ interface NewsCategoryProps {
 const NewsCategory: FC<NewsCategoryProps> = ({ category }) => {
   return (
     <li className="text-lg font-semibold text-gray-800">
-      <a href="#" className="hover:text-gray-600">{category}</a>
+      {category}
     </li>
   );
 };
