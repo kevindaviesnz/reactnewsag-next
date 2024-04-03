@@ -6,6 +6,8 @@ For more information, see the [course curriculum](https://nextjs.org/learn) on t
 
 ## Getting Started
 
+npm install next@latest react@latest react-dom@latest
+
 First, run the development server:
 
 ```bash

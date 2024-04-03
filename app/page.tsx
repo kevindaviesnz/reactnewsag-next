@@ -150,9 +150,8 @@ const Home: React.FC = () => {
   return (
     <main>
       <NewsPaperBanner
-        title="Newspaper Banner Title"
-        subtitle="Newspaper Banner Subtitle"
-        buttonText="Subscribe Now"
+        title="The Online News"
+        subtitle="News from anywhere"
       />
       <ArticlesGapHorizonal />
       <LeadingArticle imageSrc={leadingArticle.imageSrc} headline={leadingArticle.headline} uri={leadingArticle.uri} />
@@ -161,8 +160,6 @@ const Home: React.FC = () => {
         <Articles key={category} category={category} articles={articles} />
         </div>
       ))}
-      <ArticlesGapHorizonal />
-      <HeadlineLinksContainer headlineLinks={headlineLinks} />
       <ArticlesGapHorizonal />
       <ArticlesGapHorizonal />
       <NewsPaperFooter />
