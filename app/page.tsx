@@ -142,9 +142,9 @@ const Home: React.FC = () => {
   console.log('articles by category', articlesByCategory); 
 
   const leadingArticle = { 
-    imageSrc: articlesByCategory['New Zealand'][0]['images'][0], 
-    headline: articlesByCategory['New Zealand'][0]['headline'],
-    uri: articlesByCategory['New Zealand'][0]['uri'],
+    imageSrc: articlesByCategory['General'][0]['images'][0], 
+    headline: articlesByCategory['General'][0]['headline'],
+    uri: articlesByCategory['General'][0]['uri'],
   }; // Example leading article   
   
   return (
