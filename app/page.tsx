@@ -103,7 +103,7 @@ const Home: React.FC = () => {
   const [isLoading, setLoading] = useState(true)
  
   useEffect(() => {
-    fetch('https://9cw9le5m82.execute-api.ap-southeast-2.amazonaws.com')
+    fetch('https://9cw9le5m82.execute-api.ap-southeast-2.amazonaws.com') // https://60bkvnc0la.execute-api.ap-southeast-2.amazonaws.com/Dev
       .then((res) => res.json())
       .then((data) => {
         setData(data)
